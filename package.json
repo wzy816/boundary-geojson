@@ -1,0 +1,27 @@
+{
+  "name": "boundary-geojson",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wzy816/boundary-geojson.git"
+  },
+  "author": "wzy816@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wzy816/boundary-geojson/issues"
+  },
+  "homepage": "https://github.com/wzy816/boundary-geojson#readme",
+  "dependencies": {
+    "@mapbox/geojson-merge": "^1.0.2",
+    "geojson": "^0.5.0",
+    "koa": "^2.7.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0",
+    "mapshaper": "^0.4.107"
+  }
+}
