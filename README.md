@@ -29,6 +29,16 @@
 
 ## 部署
 
+[docker hub](https://hub.docker.com/r/zhiyang/boundary-geojson)
+
+```bash
+# pull image
+docker pull zhiyang/boundary-geojson:latest
+
+# run
+docker run -d --restart=always -p 3000:3000 zhiyang/boundary-geojson:latest
+```
+
 ## 接口
 
 所有接口需添加参数`type=amap`(表示采用高度地图数据)或`type=bmap`(表示采用百度地图数据)，以下为amap为例。
